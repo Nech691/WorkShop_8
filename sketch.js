@@ -93,9 +93,9 @@ function draw(){
 
     // Apply tint over the image based on dayNight
     if (dayNight === 0) { // - If returns o [night]
-      tint(0, 220); // Apply black tint with low alpha
+      tint(0, 170); // Apply black tint with low alpha
     } else { // - If returns 1 [day]
-      tint(255, 170); // Apply white tint with low alpha 
+      tint(255, 255); // Apply white tint with low alpha 
     }
     image(Colombo, 40, 180, Colombo.width, Colombo.height); // Draw the image
     
